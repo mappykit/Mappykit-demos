@@ -42,7 +42,7 @@
 		71D8F1CA12CB50690081373C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		71D8F1CB12CB50690081373C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		71DAED1612CB928D00FD241A /* MappyKitAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MappyKitAPIKey.h; path = ../MappyKitAPIKey.h; sourceTree = SOURCE_ROOT; };
-		71E1645112CCCD4700027C46 /* MappyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MappyKit.framework; path = /Users/antoine/Documents/testAFR/MappyKit_1.40/build/MappyKit.framework; sourceTree = "<absolute>"; };
+		71E1645112CCCD4700027C46 /* MappyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MappyKit.framework; path = ../../MappyKit/build/MappyKit.framework; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* PoisAroundRouteDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "PoisAroundRouteDemo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
