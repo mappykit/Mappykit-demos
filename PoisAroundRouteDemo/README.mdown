@@ -1,0 +1,28 @@
+
+Pois Around Route Demo
+==========================
+
+# Context
+This demo show the function of pois' search around a route.
+
+#How To Use It 
+
+1. Put a destination in the search bar. The application will zoom on it and and route will be compute and draw from your position to the asked destination.
+2. Tap on the toolbar item 'show fuel station'. The application will make a best zoom on pois and make a nice looking marker apparition.
+
+#Integration
+
+This is the step to search a poi around a route.
+
+1. First create a `MPItiDataSource` or `MPRouteWithStepDataSource`.
+2. Use the fonction getPoiAroundRoute on the iti datasource object. It will return a `MPPoiDataSource`. You have to provide a mappy poi alias.
+5012 is fuel station poi alias. 
+    
+     MPPoiDataSource * dataSource = [dataSourceIti getPoiAroundRoute:5012 number:10];
+
+3. You can now plot pois on the map by using `MPMarkerManager`and `MPMarkerCategory`, or get infos on pois.
+
+----------
+Created by Mappy on 31/12/10.
+Copyright 2009-2011 Mappy SA. All rights reserved.
+Author : Antoine.

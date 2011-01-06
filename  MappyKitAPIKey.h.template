@@ -1,0 +1,12 @@
+/**
+ *  \file MappyKitAPIKey.h
+ *  \brief put here your api key provided by Mappy.
+ *	\author Antoine
+ *	\date 29 december 2010
+ *
+ *  Created by mappy on 29/12/10.
+ *  Copyright 2009-2011 Mappy SA. All rights reserved.
+ */
+
+#error Supply your own Mappy API key here or apply from http://connect.mappy.com
+#define MAPPYKIT_API_KEY             @""
