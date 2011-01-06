@@ -1,0 +1,39 @@
+
+MappyKit demos
+==========================
+
+# Context
+MappyKit is a cartographic sdk avalaible for ios (ipad, iphone et ipod touch compatible).
+
+MappyKit can be download [connect.mappy.com](http://connect.mappy.com)
+
+This repo contains demo of some function avalaible.
+
+##Installation
+**Symobilc link**
+
+To use demo, extract the tar.gz and create a symbolic link in the base demo folder with this command in a terminal:
+
+    ln -s MappyKit_oneversion MappyKit
+    
+*Note:* Don't use Mac OS X alias fonction, it will not work. 
+
+**Api key**
+
+To use the sdk you ave to create an api key from Mappy SA.
+
+To do that go to [connect.mappy.com](http://connect.mappy.com) and create a account.
+
+After that rename 'MappyKitAPIKey.h.template' in 'MappyKitAPIKey.h'
+
+Delete the #error line ans put your apikey :
+
+    #define MAPPYKIT_API_KEY             @"myApiKey"
+
+# Demos list
+*PoisAroundRouteDemo* : Show the poi around a route fonction.
+
+----------
+Created by Mappy on 31/12/10.
+Copyright 2009-2011 Mappy SA. All rights reserved.
+Author : Antoine.
