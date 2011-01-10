@@ -2,6 +2,8 @@
 Pois Around Route Demo
 ==========================
 
+*Require MappyKit 1.5 and more.*
+
 # Context
 This demo show the function of pois' search around a route.
 

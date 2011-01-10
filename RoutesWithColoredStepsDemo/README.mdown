@@ -1,0 +1,34 @@
+
+Route Colored Steps Demo 
+========================================
+
+*Require MappyKit 1.5 and more.*
+
+# Context
+This demo plot a route and allow to higlight steps.
+
+Only work with MappyKit 1.50 and upper.
+
+# How To Use It 
+
+1. Put a destination in the search bar. The application will zoom on it and and route will be compute and draw from your position to the asked destination.
+2. Use the button on toolbar to highlight steps.
+
+# Integration
+
+1. First you have to use a `MPPathPolylineMulticolor` to draw the route. 
+
+    MPPathPolylineMulticolor * path = [[MPPathPolylineMulticolor alloc] init];
+
+2. Redefine the highlight `MPPathStyle`, line color, alphaLevel ... 
+
+    path.highlightStyle.lineColor = [UIColor blueColor];
+    
+3. Highlight a step by using `hightlightStep` method on the `MPPathPolylineMulticolor` with the `MPItiStep` to highlight.
+
+    [path hightlightStep:[[dataSourceIti getListOfElement] objectAtIndex:(stepCount)]]; 
+
+----------
+Created by Mappy on 31/12/10.
+Copyright 2009-2011 Mappy SA. All rights reserved.
+Author : Antoine.

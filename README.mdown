@@ -31,7 +31,9 @@ Delete the #error line ans put your apikey :
     #define MAPPYKIT_API_KEY             @"myApiKey"
 
 # Demos list
+
 *PoisAroundRouteDemo* : Show the poi around a route fonction.
+*RoutesWithColoredStepsDemo* : Plot route and higlight steps.
 
 ----------
 Created by Mappy on 31/12/10.
