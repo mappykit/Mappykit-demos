@@ -12,11 +12,18 @@ This repo contains demo of some function avalaible.
 ##Installation
 **Symobilc link**
 
-To use demo, extract the tar.gz and create a symbolic link in the base demo folder with this command in a terminal:
+To use demo, extract the tar.gz and create a symbolic link in the same level as the base demo folder with this command in a terminal:
 
     ln -s MappyKit_oneversion MappyKit
     
-*Note:* Don't use Mac OS X alias fonction, it will not work. 
+*Note:* Don't use Mac OS X alias fonction, it will not work.
+
+The base directory will be like that :
+
+    -demo_repo_from_github
+    --demo1
+    --demo2
+    -MappyKit  
 
 **Api key**
 
